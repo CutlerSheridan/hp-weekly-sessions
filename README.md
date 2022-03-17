@@ -20,6 +20,8 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *0.1.4*
+- make header tabs properly link to each other
 - *0.1.3*
 - make createBonusContent generate "Coming soon!" if none exists
 - *0.1.2*
