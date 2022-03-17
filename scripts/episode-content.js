@@ -118,11 +118,6 @@ const model = (() => {
             desc: "Molly didn't knit Harry a sweater for Christmas!  Aquila tries to help Harry figure out why.",
             link: "",
             bonusContent: [
-                {
-                    bonusDesc: "",
-                    type: "",
-                    link: "",
-                }
 
             ]
         },
@@ -131,7 +126,6 @@ const model = (() => {
             desc: "Harry and Ron investigated a crime at Hogwarts, but tensions flared when the visit went south.  Aquila helps Harry put things in perspective.",
             link: "",
             bonusContent: [
-                "",
 
             ]
         },
@@ -140,7 +134,6 @@ const model = (() => {
             desc: "Harry's in trouble at work thanks to a risky plan to snare a crime boss and he takes it out on Aquila.  Can she keep her cool?",
             link: "",
             bonusContent: [
-                "",
 
             ]
         },
@@ -149,7 +142,6 @@ const model = (() => {
             desc: "Aquila isn't sure if Harry will ever come back after their nasty fight.",
             link: "",
             bonusContent: [
-                "",
 
             ]
         },
@@ -158,7 +150,6 @@ const model = (() => {
             desc: "Aquila finally lets Harry use the pensieve!  Together, they revisit an upsetting encounter with Dumbledore's portrait.",
             link: "",
             bonusContent: [
-                "",
 
             ]
         },
@@ -167,7 +158,6 @@ const model = (() => {
             desc: "Harry Potter is a father!  His new baby forces him to explore his complicated feelings about Sirius Black—plus, Harry finally discovers the identity of the infamous crime boss known as The Jonquil.",
             link: "",
             bonusContent: [
-                "",
 
             ]
         },
@@ -192,7 +182,7 @@ const view = (() => {
         episodeVideo.frameBorder = 0;
         episodeVideo.classList.add("episode-video");
         const breakdownHeader = document.createElement("h3");
-        breakdownHeader.classList.add("section-sub-head");
+        breakdownHeader.classList.add("section-sub-head", "about-episode-head");
         breakdownHeader.textContent = "About the episode:";
         const breakdown = document.createElement("p");
         breakdown.textContent = model.episodes[epNum-1].breakdown;
@@ -232,6 +222,7 @@ const view = (() => {
                     bonus.links.forEach(link => {
                         if (link.includes("youtube")) {
                             bonusItem = document.createElement("iframe");
+                            bonusItem.classList.add("bonus-vid");
                             bonusItem.frameBorder = 0;
                             bonusItem.src = link;
                         } else {
@@ -252,6 +243,11 @@ const view = (() => {
                     // }
                 }
             });
+        } else {
+            const comingSoon = document.createElement("p");
+            comingSoon.classList.add("bonus-desc");
+            comingSoon.textContent = "Coming soon!";
+            fragment.append(comingSoon);
         }
         return fragment;
     }
