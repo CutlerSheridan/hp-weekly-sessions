@@ -1,8 +1,11 @@
 :root {
     --clr-pri: white;
+    --clr-sec-light: rgb(77, 7, 143);
+    --clr-sec-dark: rgb(53, 5, 97);
     --font-body: "Sorts Mill Goudy", serif;
     --font-heading: "Belgrano", sans-serif;
     font-size: 62.5%;
+    background: var(--clr-sec-dark);
     color: var(--clr-pri);
 }
 * {
@@ -18,7 +21,7 @@ body {
     font-family: var(--font-body);
 
     font-weight: 300;
-    background: rgb(77, 7, 143);
+    background: linear-gradient(to bottom, var(--clr-sec-dark), var(--clr-sec-light), var(--clr-sec-dark));
 }
 a {
     color: var(--clr-pri);
@@ -32,27 +35,59 @@ h2 {
     font-size: 4rem;
     font-family: var(--font-heading);
     letter-spacing: .2rem;
+    border-bottom: 3px solid var(--clr-pri);
 }
 h3 {
     margin: 1rem;
 }
 p {
     margin: .7rem 0;
-    white-space: pre-wrap;
+    max-width: 60rem;
+    /* text-align: justify; */
+    text-align-last: center;
+    white-space: pre-line;
 }
 iframe {
-    width: 350px;
-    height: 197px;
+    width: 300px;
+    height: 169px;
+}
+@media only screen and (min-width: 400px) {
+    iframe {
+        width: 350px;
+        height: 197px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    iframe {
+        width: 500px;
+        height: 281px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    iframe {
+        width: 800px;
+        height: 449px;
+    }
 }
 
 /* --- HEADER START --- */
 header {
+    margin: auto;
+    /* max-width: 70rem; */
     display: flex;
+    justify-content: end;
 }
 .header-link {
     width: calc(100%/3);
+    max-width: 35rem;
     height: 100%;
     text-decoration: none;
+}
+@media only screen and (min-width: 1000px) {
+    .header-link {
+        margin: 0 1rem;
+        width: 13rem;
+    }
 }
 .header-tab {
     height: 6rem;
@@ -60,9 +95,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
-
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 .header-tab:hover,
 .header-active {
@@ -72,11 +106,12 @@ header {
 
 /* --- SPLASH START --- */
 .splash-tile {
+    padding-top: 12.5rem;
     height: calc(100vh - 11rem);
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-image: url("../images/home/Introframe_website.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -93,12 +128,10 @@ header {
     margin: 0 1rem;
     width: calc(100% - 2rem);
     height: 25rem;
-    /* max-height: 50rem; */
     background-image: url("../images/home/HP_Titleletters_website.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-    /* background: red; */
 }
 @media only screen and (min-width: 500px) {
     .splash-text-img {
@@ -125,7 +158,7 @@ section {
     border-bottom: 2px solid var(--clr-pri);
 }
 .teaser-tease {
-    padding: 0 0 3rem 0;
+    padding: 0 0 1.5rem 0;
 }
 /* --- SERIES INFO END --- */
 
@@ -137,10 +170,13 @@ section {
 
 /* --- EPISODE GRID START --- */
 .episode-grid-title {
-    margin: 2.5rem 0 1.5rem 0;
+    margin: 2.5rem 0 0 0;
+    font-size: 2.5rem;
+    border: none;
 }
 .episode-grid {
     margin: 0 auto;
+    padding: 1rem;
     max-width: 50rem;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(4, 19%);
@@ -152,11 +188,18 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
     font-family: var(--font-heading);
     font-size: 2.5rem;
     row-gap: 2rem;
+}
+@media only screen and (min-width: 800px) {
+    .episode-grid {
+        max-width: 70rem;
+        grid-template: auto / repeat(7, 10%);
+        column-gap: 5%;
+    }
 }
 .ep-tab:hover,
 .ep-tab-active {
@@ -178,7 +221,7 @@ section {
     margin-bottom: 2rem;
 }
 .bonus-section-label {
-    margin: 6rem 0 2rem 0;
+    margin: 5rem 0 0 0;
 }
 .bonus-desc {
     margin: 2.5rem 0 1.5rem 0;

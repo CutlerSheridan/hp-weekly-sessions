@@ -3,7 +3,7 @@ const model = (() => {
         {
             title: "Ginny",
             desc: "Harry tries to talk about the quidditch toys he's building for his future child while Aquila fights to keep him on topic.",
-            link: "https://www.youtube.com/embed/Mz2YrzyT_iU",
+            link: "https://www.youtube.com/embed/HMjmmfO3L1I",
             breakdown: "The idea of Harry Potter in therapy started as a joke, but by fall 2019, we became serious about turning it into a web series. The limited cast and locations required made it perfect for a low budget, and we though the premise had a lot of inherent drama; Harry can be a pretty affable guy, but he’ll do anything to avoid opening up to others. \n\nIn this episode, we focused on that internal conflict. Harry keeps trying wax poetic about Quidditch toys and magic ceilings, but Aquila refuses to let him control their conversation. Frustration slowly builds until Harry cracks and admits, as much to Aquila as to himself, what is truly bothering him. This is the shortest and simplest episode, but it established a basic structure that we drew from in every subsequent episode: have harry think he’s upset about one thing when it’s really something deeper.",
             bonusContent: [
                 {
@@ -12,7 +12,7 @@ const model = (() => {
                 {
                     bonusDesc: "Bryce's first audition:",
                     links: [
-                        "https://www.youtube.com/embed/Mz2YrzyT_iU",
+                        "https://www.youtube.com/embed/5O5wKKLhlyQ",
                     ]
                 },
                 {
@@ -93,7 +93,7 @@ const model = (() => {
                 {
                     bonusDesc: "The floating tea pot, cup, and saucer were achieved practically.",
                     links: [
-                        "https://www.youtube.com/embed/Mz2YrzyT_iU",
+                        "https://www.youtube.com/embed/EoY33IqhZKc",
                     ]
                 },
                 {
@@ -116,7 +116,7 @@ const model = (() => {
         {
             title: "Molly",
             desc: "Molly didn't knit Harry a sweater for Christmas!  Aquila tries to help Harry figure out why.",
-            link: "",
+            link: "https://www.youtube.com/embed/Ad7j3TdOvPc",
             bonusContent: [
 
             ]
@@ -124,7 +124,7 @@ const model = (() => {
         {
             title: "Hogwarts",
             desc: "Harry and Ron investigated a crime at Hogwarts, but tensions flared when the visit went south.  Aquila helps Harry put things in perspective.",
-            link: "",
+            link: "https://www.youtube.com/embed/EJgX9oUF-8o",
             bonusContent: [
 
             ]
@@ -132,7 +132,7 @@ const model = (() => {
         {
             title: "Ministry",
             desc: "Harry's in trouble at work thanks to a risky plan to snare a crime boss and he takes it out on Aquila.  Can she keep her cool?",
-            link: "",
+            link: "https://www.youtube.com/embed/djs5R4-uCLw",
             bonusContent: [
 
             ]
@@ -140,7 +140,7 @@ const model = (() => {
         {
             title: "Harry",
             desc: "Aquila isn't sure if Harry will ever come back after their nasty fight.",
-            link: "",
+            link: "https://www.youtube.com/embed/49JkE0ZDG4M",
             bonusContent: [
 
             ]
@@ -148,7 +148,7 @@ const model = (() => {
         {
             title: "Dumbledore",
             desc: "Aquila finally lets Harry use the pensieve!  Together, they revisit an upsetting encounter with Dumbledore's portrait.",
-            link: "",
+            link: "https://www.youtube.com/embed/Eu9uuzv0J8c",
             bonusContent: [
 
             ]
@@ -156,7 +156,7 @@ const model = (() => {
         {
             title: "James Sirius",
             desc: "Harry Potter is a father!  His new baby forces him to explore his complicated feelings about Sirius Black—plus, Harry finally discovers the identity of the infamous crime boss known as The Jonquil.",
-            link: "",
+            link: "https://www.youtube.com/embed/YbMtY3EHEU8",
             bonusContent: [
 
             ]

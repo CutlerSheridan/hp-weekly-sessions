@@ -9,6 +9,7 @@ Parenthood.
 With their first child only weeks away, Harry and Ginny's marriage has been put to the test, and Ginny has convinced Harry to talk to a therapist.  This seven-part web series chronicles each of Harry's weekly sessions as he works through his career anxieties, boyhood trauma, and lingering daddy issues.
 
 #### TO-DO NEXT
+- add optional class property  bonusContent items
 
 #### TO-DO LATER
 ##### Features
@@ -20,6 +21,14 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *0.1.5*
+- actually make the header tabs properly link to each other
+- on mobile, make splash image higher
+- insert real video links
+- adjust spacing
+- add iframe breakpoints
+- add header tab breakpoints
+- add gradient background
 - *0.1.4*
 - make header tabs properly link to each other
 - *0.1.3*
