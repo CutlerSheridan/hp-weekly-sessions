@@ -21,10 +21,10 @@ const model = (() => {
                 {
                     bonusDesc: "We shot the entire series in our apartment.  We built a fake bookshelf to cover a large standing heating unit and a frosted window to hide the view into our kitchen.",
                     links: [
-                        "../images/ep_1/02-05_apartment/e01m03_roombefore.jpg",
-                        "../images/ep_1/02-05_apartment/e01m02_set.jpg",
-                        "../images/ep_1/02-05_apartment/E01m04_window.jpg",
-                        "../images/ep_1/02-05_apartment/E01m05_windowbehind.jpg"
+                        "../images/ep_1/e01m03_roombefore.jpg",
+                        "../images/ep_1/e01m02_set.jpg",
+                        "../images/ep_1/E01m04_window.jpg",
+                        "../images/ep_1/E01m05_windowbehind.jpg"
                     ]
                 },
                 {
@@ -33,24 +33,24 @@ const model = (() => {
                 {
                     bonusDesc: "Tyler designed the pensieve and built it out of an old table.",
                     links: [
-                        "../images/ep_1/06-13_pensieve/e01m06_pensieveconcept1.jpg",
-                        "../images/ep_1/06-13_pensieve/e01m07_pensieveconcept2.jpg",
-                        "../images/ep_1/06-13_pensieve/e01m08_pensievebefore.jpg",
-                        "../images/ep_1/06-13_pensieve/e01m09_pensievecomplete.jpg"
+                        "../images/ep_1/e01m06_pensieveconcept1.jpg",
+                        "../images/ep_1/e01m07_pensieveconcept2.jpg",
+                        "../images/ep_1/e01m08_pensievebefore.jpg",
+                        "../images/ep_1/e01m09_pensievecomplete.jpg"
                     ]
                 },
                 {
                     bonusDesc: "LED lights and pearlescent powder provide the magical glow.",
                     links: [
-                        "../images/ep_1/06-13_pensieve/e01m10_pensieveglow.jpg",
+                        "../images/ep_1/e01m10_pensieveglow.jpg",
                     ]
                 },
                 {
                     bonusDesc: "Finally, some rejected pensieve designs:",
                     links: [
-                        "../images/ep_1/06-13_pensieve/e01m11_pensievealt1.jpg",
-                        "../images/ep_1/06-13_pensieve/e01m12_pensievealt2.jpg",
-                        "../images/ep_1/06-13_pensieve/e01m13_pensievealt3.jpg",
+                        "../images/ep_1/e01m11_pensievealt1.jpg",
+                        "../images/ep_1/e01m12_pensievealt2.jpg",
+                        "../images/ep_1/e01m13_pensievealt3.jpg",
                     ]
                 },
                 {
@@ -59,26 +59,26 @@ const model = (() => {
                 {
                     bonusDesc: "Cutler designed Aquila's diploma, which hangs proudly over her couch, as well as her patient intake form.",
                     links: [
-                        "../images/ep_1/14-17_episode-one-design/e01m14_diploma.jpg",
-                        "../images/ep_1/14-17_episode-one-design/e01m15_form.jpg",
+                        "../images/ep_1/e01m14_diploma.jpg",
+                        "../images/ep_1/e01m15_form.jpg",
                     ],
                 },
                 {
                     bonusDesc: "Cutler also designed the Witch Weekly magazine cover in the lobby, for which Tyler posed.",
                     links: [
-                        "../images/ep_1/14-17_episode-one-design/e01m17_witchweekly.gif",
+                        "../images/ep_1/e01m17_witchweekly.gif",
                     ]
                 },
                 {
                     bonusDesc: "We bought Harry a funny owl tie in honor of his late pet.",
                     links: [
-                        "../images/ep_1/14-17_episode-one-design/e01m16_tie.jpg",
+                        "../images/ep_1/e01m16_tie.jpg",
                     ],
                 },
                 {
                     bonusDesc: "Janet brought all her costumes from home!",
                     links: [
-                        "../images/ep_1/14-17_episode-one-design/e01m23.jpg",
+                        "../images/ep_1/e01m23.jpg",
                     ]
                 },
                 {
@@ -87,7 +87,7 @@ const model = (() => {
                 {
                     bonusDesc: "We shot all the therapy room scenes of this series, comprising over 120 pages, over six days in March 2021. Our total cast and crew never exceeded four people, so everyone had to wear a lot of hats!",
                     links: [
-                        "..images/ep_1/18-19_shooting-begins/e01m18_shooting-time.jpg",
+                        "..images/ep_1/e01m18_shooting-time.jpg",
                     ],
                 },
                 {
@@ -102,7 +102,7 @@ const model = (() => {
                 {
                     bonusDesc: "Determined to hire as few collaborators as possible, Cutler learned After Effects to create the series’ 2D intro sequence. This is Tyler’s initial sketch of their idea:",
                     links: [
-                        "..images/ep_1/20-22_intro/e01m20_introstoryboard.jpg",
+                        "..images/ep_1/e01m20_introstoryboard.jpg",
                     ],
                 },
                 {

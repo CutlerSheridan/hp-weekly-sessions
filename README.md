@@ -16,6 +16,8 @@ Harry Potter goes to therapy??  Six years after defeating the greatest dark wiza
 ##### Maybe
 
 #### DONE
+- *0.1.2*
+- add splash image and styling
 - *0.1.1*
 - margin adjustments in Episodes
 - augment bonus content generation
