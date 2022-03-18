@@ -51,7 +51,7 @@ iframe {
     width: 300px;
     height: 169px;
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 375px) {
     iframe {
         width: 350px;
         height: 197px;
@@ -209,31 +209,67 @@ section {
 /* --- EPISODE GRID END --- */
 
 /* --- EPISODE CONTENT START --- */
+.episode-section {
+    /* padding: 0; */
+}
 .episode-video {
     margin: 1.5rem 0 2.5rem 0;
 }
-.section-sub-head {
-    margin-top: 2rem;
-    margin-bottom: -.75rem;
+.section-sub-head-container {
+    margin: 2rem 0 -.75rem 0;
+    display: flex;
+    justify-content: center;
     font-family: var(--font-heading);
+    /* background: red; */
+}
+.tilde {
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    /* width: 5rem; */
+    /* background: blue; */
+}
+.section-sub-head-text {
+    margin: 0 .5rem;
+    /* height: 2rem; */
+    /* background: black; */
 }
 .about-episode-head {
     margin-bottom: 2rem;
 }
 .bonus-section-label {
-    margin: 5rem 0 0 0;
+    margin: 5rem auto 0 auto;
 }
 .bonus-desc {
     margin: 2.5rem 0 1.5rem 0;
 }
-.bonus-vid {
+.bonus-item {
+    /* margin: 0 1rem; */
     margin-bottom: 2rem;
+}
+.bonus-vid {
+    margin-bottom: 0;
 }
 .bonus-img {
     width: 100%;
-    margin-bottom: 2rem;
+    max-width: 30rem;
     border: 4px solid var(--clr-pri);
     border-radius: .3rem;
 }
-
+@media only screen and (min-width: 750px) {
+    .bonus-img {
+        max-width: 40rem;
+    }
+}
+.bonus-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+.big-item {
+    max-width: 100%;
+}
+.big {
+    /* height: 131.3rem; */
+}
 /* --- EPISODE CONTENT END --- */

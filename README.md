@@ -21,6 +21,9 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *0.1.6*
+- make bonus content sub-headings shrink to fit wrapped text
+- add all "about the episode" descriptions
 - *0.1.5*
 - actually make the header tabs properly link to each other
 - on mobile, make splash image higher
