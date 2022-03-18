@@ -20,6 +20,8 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *1.0.3*
+- adjust breakpoints for splash image
 - *1.0.2*
 - make "A" lowercase on splash
 - *1.0.1*

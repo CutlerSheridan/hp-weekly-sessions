@@ -117,10 +117,10 @@ header {
     background-repeat: no-repeat;
     background-position: bottom;
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .splash-tile {
         padding-top: 7rem;
-        height: calc(100vh + 7rem);
+        height: calc(100vh);
         justify-content: flex-start;
     }
 }
@@ -133,7 +133,7 @@ header {
     background-repeat: no-repeat;
     background-position: top;
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .splash-text-img {
         height: 50rem;
     }
