@@ -17,6 +17,7 @@ const model = (() => {
                 },
                 {
                     bonusDesc: "We shot all the therapy room scenes of this series, comprising over 120 pages, over six days in March 2021. Our total cast and crew never exceeded four people, so everyone had to wear a lot of hats!",
+                    classes: ["big"],
                     links: [
                         "../images/ep_1/e01m18_shooting-time.jpg",
                     ],
@@ -39,8 +40,6 @@ const model = (() => {
                     links: [
                         "../images/ep_1/e01m03_roombefore.jpg",
                         "../images/ep_1/e01m02_set.jpg",
-                        "../images/ep_1/E01m04_window.jpg",
-                        "../images/ep_1/E01m05_windowbehind.jpg"
                     ]
                 },
                 {

@@ -20,6 +20,9 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *1.0.1*
+- delete those two pics that aren't showing up (the window)
+- make wide shot of us shooting .big class
 - *1.0.0*
 - add About Us page
 - add Trans Rights Spotlight
