@@ -138,14 +138,6 @@ header {
         height: 50rem;
     }
 }
-.trans-heading {
-    margin-top: 3rem;
-    border: none;
-    text-decoration: underline;
-}
-.trans-link {
-    text-decoration: underline;
-}
 /* --- SPLASH END --- */
 
 /* --- SERIES INFO START --- */
@@ -163,10 +155,20 @@ section {
 }
 .youtube-link {
     margin: 1.5rem 0;
-    border-bottom: 2px solid var(--clr-pri);
+    font-size: 4rem;
+    text-decoration: underline;
+    /* border-bottom: 2px solid var(--clr-pri); */
 }
 .teaser-tease {
     padding: 0 0 1.5rem 0;
+}
+.trans-heading {
+    margin-top: 3rem;
+    border: none;
+    text-decoration: underline;
+}
+.trans-link {
+    text-decoration: underline;
 }
 /* --- SERIES INFO END --- */
 

@@ -20,6 +20,9 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *1.0.5*
+- make episode one link bigger
+- add links to trans orgs
 - *1.0.4*
 - change window tab title
 - fix episode one link
