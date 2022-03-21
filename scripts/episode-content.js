@@ -128,7 +128,9 @@ const model = (() => {
                 },
                 {
                     bonusDesc: "We tried to take the teapot effect from Episode 1 a step further by adding camera motion! If you look closely, though, you’ll notice the camera never actually moves while the the teapot is in frame. That way, we had a clean background plate to use for erasing Cutler and the rod.",
-                    links: "https://www.youtube.com/embed/SlMSFsERCqQ",
+                    links: [
+                        "https://www.youtube.com/embed/SlMSFsERCqQ",
+                    ]
                 },
                 {
                     bonusDesc: "From the Breaking Bad-inspired candy-cam, to the Wes Anderson-inspired Christmas photos, we tried to fill Episode 2 with fun stylistic flourishes to stave off the boredom of watching two people sit and talk. The flatlay photos were not made in photoshop—Cutler designed and shot them for real:",
