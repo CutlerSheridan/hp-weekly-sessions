@@ -133,7 +133,7 @@ const model = (() => {
                 {
                     bonusDesc: "From the Breaking Bad-inspired candy-cam, to the Wes Anderson-inspired Christmas photos, we tried to fill Episode 2 with fun stylistic flourishes to stave off the boredom of watching two people sit and talk. The flatlay photos were not made in photoshop—Cutler designed and shot them for real:",
                     classes: ["bonus-grid"],
-                    link: [
+                    links: [
                         "../images/ep_2/e02m02_flatlay.jpg",
                         "../images/ep_2/e02m03_flatlay.jpg",
                     ]

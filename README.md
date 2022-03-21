@@ -20,6 +20,8 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *1.1.1*
+- fix typo (link instead of links in ep. 2)
 - *1.1.0*
 - add all bonus content for eps. 2-7
 - *1.0.5*
