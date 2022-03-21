@@ -279,8 +279,8 @@ section {
 .big-item {
     max-width: 100%;
 }
-.big {
-    /* height: 131.3rem; */
+.bonus-no-frame {
+    border: none;
 }
 /* --- EPISODE CONTENT END --- */
 
