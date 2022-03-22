@@ -137,7 +137,7 @@ const model = (() => {
                     classes: ["bonus-grid"],
                     links: [
                         "../images/ep_2/e02m02_flatlay.jpg",
-                        "../images/ep_2/e02m03_flatlay.jpg",
+                        "../images/ep_2/e02m03_flatlay2.jpg",
                     ]
                 },
             ]
