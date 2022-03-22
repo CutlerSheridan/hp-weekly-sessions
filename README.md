@@ -20,6 +20,8 @@ With their first child only weeks away, Harry and Ginny's marriage has been put 
 ##### Maybe
 
 #### DONE
+- *1.1.4*
+- make flatlay pics big
 - *1.1.3*
 - fix another typo for one of ep. 2's pics
 - *1.1.2*
